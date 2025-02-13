@@ -12,4 +12,7 @@ if (number1 > number2) {
 } else if (number2 = number1) {
     alert("IT'S A TIE")
     console.log(number1, number2);
+} else {
+    alert("OH OOOH, DID I SEE A TYPO? Remember to use dots insted of commas for decimals")
+    console.log(number1, number2);
 }
