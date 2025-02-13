@@ -1,7 +1,7 @@
 let word1 = prompt("Scrivi una parola")
 let word2 = prompt("Scrivi una seconda parola")
 
-if (word1 === "" || word2 === "") {
+if (word1 === "" || word1 === null || word2 === "" || word2 === null) {
     alert("Attenzione, scrivi qualcosa di valido")
     console.log(word1, word2);
 } else if (word1.length > word2.length) {
